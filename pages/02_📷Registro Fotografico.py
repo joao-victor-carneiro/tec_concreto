@@ -1,7 +1,6 @@
 #==========Libraries==========#
 import plotly.express as px
 import pandas as pd
-import xlrd
 #==========Bibliotecas necessárias============#
 import streamlit as st
 from PIL import Image
