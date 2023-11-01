@@ -4,7 +4,7 @@ import pandas as pd
 #==========Bibliotecas necessárias============#
 import streamlit as st
 from PIL import Image
-st.set_page_config(page_title='Registro Fotográfico',page_icon='🌌',layout='wide')
+st.set_page_config(page_title='Registro Fotográfico',page_icon='🌌',layout='centered')
 
 df = pd.read_csv('dataset/dados_tec_con.csv', thousands = ',', decimal = '.')
 df1 = df.copy()
