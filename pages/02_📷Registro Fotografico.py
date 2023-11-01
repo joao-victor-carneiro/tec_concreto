@@ -67,6 +67,7 @@ with st.container():
 st.markdown ('---')
 
 with st.container():
+    st.markdown('### Compressão Diametral - :two::eight: Dias')
     col1,col2,col3= st.columns(3, gap='large')
     with col1:
         image = Image.open('img_28d/01.jpeg')
